@@ -71,7 +71,7 @@ static double gettgd(int sat, const nav_t *nav)
 *            double *azel              方位角/高度角（弧度）
 *            int    iter               迭代次数                  
 *            prcopt_t *opt             处理选项
-*            double *var               电离层延迟方差
+*            double *var               方差
 * 输出值：   PC                        码偏差改正后的伪距
 *-----------------------------------------------------------------------------*/
 static double prange(const obsd_t *obs, const nav_t *nav, const double *azel,
